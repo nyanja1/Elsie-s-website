@@ -1,8 +1,7 @@
 // Countdown Timer
-const countdownDate = new Date(
-  "[2024, November - 1, 24, 12, 60, 60]"
-).getTime(); // Set your birthday date
+const countdownDate = new Date(2024, 10, 24, 0, 0, 0).getTime(); // November is month 10 (0-indexed)
 
+// Update countdown every second
 const countdownFunction = setInterval(() => {
   const now = new Date().getTime();
   const distance = countdownDate - now;
@@ -23,3 +22,5 @@ const countdownFunction = setInterval(() => {
     document.getElementById("countdown").innerHTML = "Happy Birthday!";
   }
 }, 1000);
+
+
