@@ -23,4 +23,7 @@ const countdownFunction = setInterval(() => {
   }
 }, 1000);
 
+// memories gallery
+
+const openimagegallery = 
 

@@ -1,24 +1,28 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #1d0101;
   color: #333;
   margin: 0;
   padding: 20px;
   text-align: center;
 }
 header {
-  background: #ffcc00;
+  background: #ae09bd;
   padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  border-radius: 2%;
+  margin-bottom: 2px;
+  font-weight: 300;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 h1 {
   margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .section {
   margin: 20px 0;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #d11010;
   border-radius: 8px;
   background: #fff;
   transition: transform 0.2s;
@@ -28,15 +32,15 @@ h1 {
 }
 .gallery img {
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   margin: 10px;
-  border-radius: 8px;
+  border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 footer {
   margin-top: 20px;
-  font-size: 0.9em;
-  color: #777;
+  font: bold;
+  color: #eb120b;
 }
 .countdown {
   font-size: 1.5em;
@@ -45,12 +49,18 @@ footer {
 }
 
 #about {
-  background-color: aqua;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(101, 21, 230);
+  font-family: fantasy;
+}
+#memories {
+  background-color: #000000;
+}
+#playlist {
+  background-color: #333;
 }
 /* From Uiverse.io by Praashoo7 */
 .main {
-  background-color: white;
+  background-color: rgb(49, 48, 58);
   padding: 1em;
   padding-bottom: 1.1em;
   border-radius: 15px;
@@ -71,7 +81,7 @@ footer {
 
 .loader:hover {
   cursor: pointer;
-  background-color: lightgray;
+  background-color: rgb(182, 9, 9);
 }
 
 .currentplaying {
@@ -137,7 +147,7 @@ footer {
   margin-right: 1em;
   height: 40px;
   width: 40px;
-  background-color: rgb(233, 232, 232);
+  background-color: rgb(5, 5, 5);
   align-self: center;
   border-radius: 5px;
 }
