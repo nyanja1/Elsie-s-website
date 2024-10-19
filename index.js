@@ -22,8 +22,3 @@ const countdownFunction = setInterval(() => {
     document.getElementById("countdown").innerHTML = "Happy Birthday!";
   }
 }, 1000);
-
-// memories gallery
-
-const openimagegallery = 
-
